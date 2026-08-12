@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/etCareOfInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Care Of Name (কেয়ার অফ এর নাম)" />
+
+    <Button
+        android:id="@+id/btnAddCare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Care Of"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
