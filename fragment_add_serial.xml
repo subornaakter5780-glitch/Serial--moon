@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/etPatientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Patient Name (পেশেন্ট নেম)" />
+
+    <EditText
+        android:id="@+id/etCareOfName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Care Of Name (কেয়ার অফ নেম)" />
+
+    <EditText
+        android:id="@+id/etDoctorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doctor Name (ডাক্তার নেম)" />
+
+    <Button
+        android:id="@+id/btnSaveSerial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Serial"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
